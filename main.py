@@ -1,9 +1,10 @@
-strat_year = input('Year of birth : ')
-end_year = input('Current year : ')
+first_number = float(input('input a number : '))
+second_number = float(input('input a second number:'))
 
-strat_year = int(strat_year)
-end_year = int(end_year)
 
-age = end_year - strat_year
+sum = first_number + second_number
+substraction = first_number - second_number
+multiplication = first_number * second_number
+division = first_number / second_number
 
-print('Your age is', age, 'years old.')
+print('The sum of the two numbers is', sum, '\n The substaction of the two numbers is', substraction, '\n The multiplication of the two numbers is', multiplication,'\n And the the division of the two number is', division )
